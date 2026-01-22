@@ -41,7 +41,7 @@ Bsuite est le logiciel de programmation pour machines CNC Biesse. La fonctionnal
 | **LPX** | Longueur Panneau X (Dimension finie) | En mm |
 | **LPY** | Longueur Panneau Y (Dimension finie) | En mm |
 | **LPZ** | Longueur Panneau Z (épaisseur) | En mm |
-| **FCRN** | Faces/Arêtes | *D(1)+$(2)+D(3) |
+| **FCRN** | Faces/Arêtes | FCRN="0(1)" |
 | **MC** | Nom Macro/Commande | Texte ex:"Tourillon_8" |
 | **PE** | Profondeur Encastrement (Probable) | Valeur numérique |
 | **SF** | Sortie Encastrement (Probable) | Valeur numérique |
@@ -155,9 +155,9 @@ Toutes les lignes détectées sont traitées comme des rainures.
 
 **Tolérance de détection :**
 ```
-(ABS(R)>=3.35) & (ABS(R)<=4.05)
+(ABS(R)>=3.95) & (ABS(R)<=4.05)
 ```
-Rayon entre 3.35 mm et 4.05 mm (gère les imperfections d'import)
+Rayon entre 3.95 mm et 4.05 mm (gère les imperfections d'import)
 
 **Règles par face :**
 
