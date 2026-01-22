@@ -29,6 +29,7 @@ Bsuite est le logiciel de programmation pour machines CNC Biesse. La fonctionnal
 
 | Variable | Signification | Valeurs typiques |
 |----------|---------------|------------------|
+| **R** | Rayon | En mm |**
 | **L** | Longueur (Length) | En mm |
 | **W** | Largeur (Width/Largeur) | En mm |
 | **H** | Hauteur (Height) | En mm |
