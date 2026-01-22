@@ -24,6 +24,8 @@ Bsuite est le logiciel de programmation pour machines CNC Biesse. La fonctionnal
 - Chaque usinage peut être modifié manuellement après application
 
 ![Nouvelle règle géométrie](images/Nouvelle%20règle%20géométrie.png)
+![Nouvelle règle géométrie](images/Nouvelle%20régle%20usinage.png)
+![Nouvelle règle géométrie](images/Nouvelle%20régle%20description.png)
 
 ---
 
