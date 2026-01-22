@@ -23,9 +23,41 @@ Bsuite est le logiciel de programmation pour machines CNC Biesse. La fonctionnal
 - Les règles d'usinages automatiques sont appliquées selon l'ordre dans l'arbre des opérations
 - Chaque usinage peut être modifié manuellement après application
 
+## Création d'une nouvelle règle
+
+La création d'une règle dans Bsuite se fait en 3 étapes simples.
+
+Etape 1 : Sélection de géométrie
+
 ![Nouvelle règle géométrie](images/Nouvelle%20règle%20géométrie.png)
+
+Choisissez le type de géométrie que la règle doit détecter : Point, ligne, Arc, Rectangle, etc...
+
+Exemples:
+- Cercle → Pour les perçages et tourillons
+- Rectangle → Pour le détourage et les poches
+- Ligne → Pour les rainures
+
+Etape 2 : Sélection de l'usinage
 ![Nouvelle règle géométrie](images/Nouvelle%20régle%20usinage.png)
+
+Sélectionnez le type d'usinage à appliquer sur la géométrie détectée : Perçage, fraisage, coupe, etc...
+
+Exemples:
+- Perçage → Pour tourillons et trous
+- Fraisage → Pour détourage et poches
+- Coupe → Pour rainures
+
+Etape 3 : Description
+
 ![Nouvelle règle géométrie](images/Nouvelle%20régle%20description.png)
+
+Donnez un nom clair à votre règle pour l'identifier facilement dans l'arbre des opérations.
+
+Exemples de descriptions:
+- Tourillons avant
+- Perçage 5mm
+- Détourage
 
 ---
 
