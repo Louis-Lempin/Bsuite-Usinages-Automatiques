@@ -39,6 +39,7 @@ Exemples:
 - Ligne → Pour les rainures
 
 Etape 2 : Sélection de l'usinage
+
 ![Nouvelle règle géométrie](images/Nouvelle%20régle%20usinage.png)
 
 Sélectionnez le type d'usinage à appliquer sur la géométrie détectée : Perçage, fraisage, coupe, etc...
