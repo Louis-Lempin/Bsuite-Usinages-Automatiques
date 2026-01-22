@@ -42,7 +42,7 @@ Bsuite est le logiciel de programmation pour machines CNC Biesse. La fonctionnal
 | **LPY** | Longueur Panneau Y (Dimension finie) | En mm |
 | **LPZ** | Longueur Panneau Z (épaisseur) | En mm |
 | **FCRN** | Faces/Arêtes | FCRN="0(1)" |
-| **MC** | Nom Macro/Commande | Texte ex:"Tourillon_8" |
+| **MC** | Nom Macro/Commande | Texte, ex:"Tourillon_8" |
 | **PE** | Profondeur Encastrement (Probable) | Valeur numérique |
 | **SF** | Sortie Encastrement (Probable) | Valeur numérique |
 | **E1-x1** | Entrée 1 Point x1 | Coordonnées |
