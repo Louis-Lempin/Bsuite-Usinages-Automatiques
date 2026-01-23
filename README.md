@@ -30,6 +30,39 @@ Bsuite est le logiciel de programmation pour machines CNC Biesse. La fonctionnal
 Avant de pouvoir créer vos règles d'usinages automatiques, vous devez d'abord créer une configuration:
 
 1. Cliquez sur la première icône (Nouvelle configuration) ![Nouvelle configuration](images/Nouvelleconfiguration.png)
+
+**Interface de gestion des usinages automatiques**
+
+Une fois votre configuration créée, vous accédez à l'interface principale des usinages automatiques, organisée en trois zones distinctes:
+
+![Interface](images/Onglet%20usinages%20automatiques.png)
+
+**Partie supérieure : liste des règles**
+
+   Cette zone affiche toutes les règles d'usinages automatiques que vous avez créées. Chaque ligne représente une règle.
+
+**Partie Inférieure gauche : détail de la règle**
+
+  Lorsque vous sélectionnez une règle dans la liste, cette zone affiche:
+  
+- Paramètres : Géométrie, usinage, description, layer
+- Géométrie conteneur: Case à cocher pour différencier détourage/poches
+- Regrouper par: Option de regroupement (Face/pièce)
+- Règles: Les conditions et formules appliquées (ex: (ABS(R)>=3.95)&(ABS(R)<=4.05)
+- Données usinage: Paramètres techniques (Type, outil, profondeur, diamètre, etc..)
+
+**Parite droite: configuration de l'usinage**
+
+   Cette zone permet de configurer les paramètres spécifiques de l'usinage sélectionné:
+
+- Données géométriques
+- Données outil
+- Données passages verticaux
+- Données vitesse
+- Données sécurité
+- Données défonçage
+- Données Usinage
+
 2. Enregistrez le fichier en lui donnant un nom explicite, par exemple : Usinage-Automatique
 3. Cliquez sur la quatrième icône pour créer votre première règle ![Nouvelle configuration](images/nouvellerègle.png)
 
@@ -69,38 +102,6 @@ Exemples de descriptions:
 - Tourillons avant
 - Perçage 5mm
 - Détourage
-
-**Interface de gestion des usinages automatiques**
-
-Une fois votre configuration créée, vous accédez à l'interface principale des usinages automatiques, organisée en trois zones distinctes:
-
-![Interface](images/Onglet%20usinages%20automatiques.png)
-
-1. Partie supérieure : liste des règles
-
-   Cette zone affiche toutes les règles d'usinages automatiques que vous avez créées. Chaque ligne représente une règle.
-
-2. Partie Inférieure gauche : détail de la règle
-
-  Lorsque vous sélectionnez une règle dans la liste, cette zone affiche:
-  
-- Paramètres : Géométrie, usinage, description, layer
-- Géométrie conteneur: Case à cocher pour différencier détourage/poches
-- Regrouper par: Option de regroupement (Face/pièce)
-- Règles: Les conditions et formules appliquées (ex: (ABS(R)>=3.95)&(ABS(R)<=4.05)
-- Données usinage: Paramètres techniques (Type, outil, profondeur, diamètre, etc..)
-
-3. Parite droite: configuration de l'usinage
-
-   Cette zone permet de configurer les paramètres spécifiques de l'usinage sélectionné:
-
-- Données géométriques
-- Données outil
-- Données passages verticaux
-- Données vitesse
-- Données sécurité
-- Données défonçage
-- Données Usinage
 
 ---
 
