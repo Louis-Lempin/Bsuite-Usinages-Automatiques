@@ -342,6 +342,7 @@ Pour les tourillons, séparer les règles par face permet d'avoir 6 programmes d
 ---
 
 Voici un fichier XML d'usinage automatique disponible via le lien ci-dessous.
+
 [Télécharger le fichier XML](Usinage-Automatique.xml)
 
 Pour l'utiliser dans bSuite, il suffit de placer le fichier dans le dossier suivant:
