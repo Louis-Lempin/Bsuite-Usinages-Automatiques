@@ -81,11 +81,12 @@ Une fois votre configuration créée, vous accédez à l'interface principale de
 2. Partie Inférieure gauche : détail de la règle
 
   Lorsque vous sélectionnez une règle dans la liste, cette zone affiche:
-  -Paramètres : Géométrie, usinage, description, layer
-  -Géométrie conteneur: Case à cocher pour différencier détourage/poches
-  -Regrouper par: Option de regroupement (Face/pièce)
-  -Règles: Les conditions et formules appliquées (ex: (ABS(R)>=3.95)&(ABS(R)<=4.05)
-  -Données usinage: Paramètres techniques (Tyoe, outil, profondeur, diamètre, etc..)
+  
+- Paramètres : Géométrie, usinage, description, layer
+- Géométrie conteneur: Case à cocher pour différencier détourage/poches
+- Regrouper par: Option de regroupement (Face/pièce)
+- Règles: Les conditions et formules appliquées (ex: (ABS(R)>=3.95)&(ABS(R)<=4.05)
+- Données usinage: Paramètres techniques (Type, outil, profondeur, diamètre, etc..)
 
 3. Parite droite: configuration de l'usinage
 
