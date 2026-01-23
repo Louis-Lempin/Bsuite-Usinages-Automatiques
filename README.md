@@ -271,12 +271,12 @@ Rayon entre 3.95 mm et 4.05 mm (gère les imperfections d'import)
 
 | Description | Géométrie | Usinage | Face | Règle |
 |-------------|-----------|---------|------|-------|
-| Tourillons Avant | Cercle | Perçage | Face 1 | `(ABS(R)>=3.35) & (ABS(R)<=4.05)` + `(FCRN="1(1)")` |
-| Tourillons Droit | Cercle | Perçage | Face 2 | `(ABS(R)>=3.35) & (ABS(R)<=4.05)` + `(FCRN="2(1)")` |
-| Tourillons Arrière | Cercle | Perçage | Face 3 | `(ABS(R)>=3.35) & (ABS(R)<=4.05)` + `(FCRN="3(1)")` |
-| Tourillons Gauche | Cercle | Perçage | Face 4 | `(ABS(R)>=3.35) & (ABS(R)<=4.05)` + `(FCRN="4(1)")` |
-| Tourillons Dessus | Cercle | Perçage | Face 0 | `(ABS(R)>=3.35) & (ABS(R)<=4.05)` + `(FCRN="0(1)")` |
-| Tourillons Dessous | Cercle | Perçage | Face 5 | `(ABS(R)>=3.35) & (ABS(R)<=4.05)` + `(FCRN="5(1)")` |
+| Tourillons Avant | Cercle | Perçage | Face 1 | `(ABS(R)>=3.95) & (ABS(R)<=4.05)` + `(FCRN="2(1)")` |
+| Tourillons Droit | Cercle | Perçage | Face 2 | `(ABS(R)>=3.95) & (ABS(R)<=4.05)` + `(FCRN="3(1)")` |
+| Tourillons Arrière | Cercle | Perçage | Face 3 | `(ABS(R)>=3.95) & (ABS(R)<=4.05)` + `(FCRN="4(1)")` |
+| Tourillons Gauche | Cercle | Perçage | Face 4 | `(ABS(R)>=3.95) & (ABS(R)<=4.05)` + `(FCRN="1(1)")` |
+| Tourillons Dessus | Cercle | Perçage | Face 0 | `(ABS(R)>=3.95) & (ABS(R)<=4.05)` + `(FCRN="0(1)")` |
+| Tourillons Dessous | Cercle | Perçage | Face 5 | `(ABS(R)>=3.95) & (ABS(R)<=4.05)` + `(FCRN="5(1)")` |
 
 **Avantage :** 6 programmes distincts dans l'arbre pour une meilleure organisation.
 
