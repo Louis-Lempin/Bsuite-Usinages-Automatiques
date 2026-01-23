@@ -137,7 +137,7 @@ Ces variables permettent de cibler précisément l'emplacement et les caractéri
 
 ---
 
-###Maîtriser les opérateurs
+### Maîtriser les opérateurs
 
 Les opérateurs permettent de construire des conditions logiques pour vos règles. Ils déterminent quand et où un usinage doit être appliqué.
 
