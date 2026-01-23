@@ -106,6 +106,12 @@ Une fois votre configuration créée, vous accédez à l'interface principale de
 
 ## Tableau de référence des variables
 
+Pour créer des règles d'usinages automatiques efficzces, il est essentiel de connaître les variables disponibles dans Bsuite. Ces variables permettent de définir des conditions précises pour détecter et usiner les géométries.
+
+**Variables de dimensions et positions**
+
+Ces variables permettent de cibler précisément l'emplacement et les caractéristiques des usinages :
+
 | Variable | Signification | Valeurs typiques |
 |----------|---------------|------------------|
 | **R** | Rayon | En mm |**
@@ -130,9 +136,14 @@ Une fois votre configuration créée, vous accédez à l'interface principale de
 
 ---
 
-## Opérateurs et fonctions
+###Maîtriser les opérateurs
 
-### Opérateurs logiques
+Les opérateurs permettent de construire des conditions logiques pour vos règles. Ils déterminent quand et où un usinage doit être appliqué.
+
+**Opérateurs logiques**
+
+Ces opérateurs permetent de combiner plusieurs condittions:
+
 | Symbole | Signification | Exemple |
 |---------|---------------|---------|
 | **&** | Et (And) | W>8 & H<8 |
@@ -140,6 +151,9 @@ Une fois votre configuration créée, vous accédez à l'interface principale de
 | **=** | Égal | H=4 |
 
 ### Opérateurs de comparaison
+
+Ces opérateurs comparent dez valeurs pour définir des plages ou des conditions précises:
+
 | Symbole | Signification | Exemple |
 |---------|---------------|---------|
 | **=** | Supérieur | R>=1 |
@@ -149,6 +163,9 @@ Une fois votre configuration créée, vous accédez à l'interface principale de
 | **\*** | Multiplication | (R=0)*24 |
 
 ### Opérateurs mathématiques
+
+Utilisés pour calculer des positions ou dimensions relatives:
+
 | Symbole | Signification | Exemple |
 |---------|---------------|---------|
 | **+** | Addition | LPX+2 |
@@ -165,6 +182,14 @@ Une fois votre configuration créée, vous accédez à l'interface principale de
 
 ## Système de numérotation des faces
 
+**Comprendre le système FCRN (Faces et Arêtes)**
+
+Le paramètre FCRN (Face Corner Reference Number) est crucial pour cibler précisément l'emplacement des usinages sur un panneau. Il permet de spécifier sur quelle face et quelle arête un usinage doit être appliqué.
+
+**Le système de numérotation des faces**
+
+Chaque panneau possède 6 faces numérotées de 0 à 5:
+
 | Numéro | Face |
 |--------|------|
 | **0** | Face Supérieur (Dessus) |
@@ -173,6 +198,8 @@ Une fois votre configuration créée, vous accédez à l'interface principale de
 | **3** | Face arrière |
 | **4** | Face gauche |
 | **5** | Face inférieur (Dessous) |
+
+![FCRN](images/Onglet%20usinages%20automatiques.png)
 
 **Format FCRN :** `FCRN="N(A)"` où **N** = numéro de face et **A** = numéro d'arête (1, 2, 3, 4)
 
