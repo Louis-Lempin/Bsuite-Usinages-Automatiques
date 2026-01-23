@@ -199,7 +199,7 @@ Chaque panneau possède 6 faces numérotées de 0 à 5:
 | **4** | Face gauche |
 | **5** | Face inférieur (Dessous) |
 
-![FCRN](images/Onglet%20usinages%20automatiques.png)
+![FCRN](images/fcrn.png)
 
 **Format FCRN :** `FCRN="N(A)"` où **N** = numéro de face et **A** = numéro d'arête (1, 2, 3, 4)
 
