@@ -23,7 +23,10 @@ Bsuite est le logiciel de programmation pour machines CNC Biesse. La fonctionnal
 - Les règles d'usinages automatiques sont appliquées selon l'ordre dans l'arbre des opérations
 - Chaque usinage peut être modifié manuellement après application
 
-## Création d'une nouvelle règle
+## Création d'une nouvelle configuration
+
+
+**Création d'une nouvelle règle**
 
 La création d'une règle dans Bsuite se fait en 3 étapes simples.
 
