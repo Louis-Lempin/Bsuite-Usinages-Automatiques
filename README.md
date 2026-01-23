@@ -74,6 +74,8 @@ Exemples de descriptions:
 
 Une fois votre configuration créée, vous accédez à l'interface principale des usinages automatiques, organisée en trois zones distinctes:
 
+![Interface](images/Onglet%20usinages%20automatiques.png)
+
 1. Partie supérieure : liste des règles
 
    Cette zone affiche toutes les règles d'usinages automatiques que vous avez créées. Chaque ligne représente une règle.
