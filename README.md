@@ -347,7 +347,8 @@ Voici un fichier XML d'usinage automatique disponible via le lien ci-dessous.
 
 Pour l'utiliser dans bSuite, il suffit de placer le fichier dans le dossier suivant:
 
-OS (C:) > BIESSE > bSuite > WorkRecognitionConfigs
+C:\BIESSE\bSuite\WorkRecognitionConfigs
+
 
 Une fois le fichier ajouté dans ce répertoire, les règles d'usinage automatique seront reconnues et utilisables dans bSuite
 
