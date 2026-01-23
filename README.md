@@ -31,7 +31,7 @@ Avant de pouvoir créer vos règles d'usinages automatiques, vous devez d'abord 
 
 1. Cliquez sur la première icône (Nouvelle configuration) ![Nouvelle configuration](images/Nouvelleconfiguration.png)
 2. Enregistrez le fichier en lui donnant un nom explicite, par exemple : Usinage-Automatique
-3. Cliquez sur la quatrième icône pour créer votre première règle ![Nouvelle configuration](images/Nouvellerègle.png)
+3. Cliquez sur la quatrième icône pour créer votre première règle ![Nouvelle configuration](images/nouvellerègle.png)
 
 **Création d'une nouvelle règle**
 
