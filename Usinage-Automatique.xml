@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WorkRecognitionConfig>
+  <Panel />
+  <Geometry type="b.Circle">
+    <Work type="b.Boring" collect="Face" description="Tourillons Avant">
+      <Param name="TYP" value="0" type="int" IsParametricEnabled="false" />
+      <Param name="BYTOOL" value="0" type="bboringworkwrapper.toolmode" IsParametricEnabled="false" />
+      <Param name="TNM" value="&quot;MP_8_V&quot;" type="system.string" IsParametricEnabled="false" />
+      <Param name="JSF" value="30" type="system.double" IsParametricEnabled="false" />
+      <Param name="USF" value="30" type="system.double" IsParametricEnabled="false" />
+      <Param name="DP" value="25" type="system.double" IsParametricEnabled="false" />
+      <Param name="DIA" value="8" type="system.double" IsParametricEnabled="false" />
+      <Param name="ALG1" value="false" type="system.boolean" IsParametricEnabled="false" />
+      <Param name="NMC" value="&quot;Tourillons Avant&quot;" type="system.string" IsParametricEnabled="false" />
+      <Rule type="DeRule">
+        <ParamsString>(ABS(R)&gt;=3.95) &amp; (ABS(R)&lt;=4.05)</ParamsString>
+      </Rule>
+      <Rule type="DeRule">
+        <ParamsString>(FCRN="2(1)")</ParamsString>
+      </Rule>
+    </Work>
+    <Work type="b.Boring" collect="Face" description="Tourillons Droit">
+      <Param name="TYP" value="0" type="int" IsParametricEnabled="false" />
+      <Param name="DIA" value="8" type="system.double" IsParametricEnabled="false" />
+      <Param name="DP" value="25" type="system.double" IsParametricEnabled="false" />
+      <Param name="NMC" value="&quot;Tourillons Droit&quot;" type="system.string" IsParametricEnabled="false" />
+      <Rule type="DeRule">
+        <ParamsString>(FCRN="3(1)")</ParamsString>
+      </Rule>
+      <Rule type="DeRule">
+        <ParamsString>(ABS(R)&gt;=3.95) &amp; (ABS(R)&lt;=4.05)</ParamsString>
+      </Rule>
+    </Work>
+    <Work type="b.Boring" collect="Face" description="Tourillons Arrière">
+      <Param name="TYP" value="0" type="int" IsParametricEnabled="false" />
+      <Param name="DIA" value="8" type="system.double" IsParametricEnabled="false" />
+      <Param name="DP" value="25" type="system.double" IsParametricEnabled="false" />
+      <Param name="NMC" value="&quot;Tourillons Arriere&quot;" type="system.string" IsParametricEnabled="false" />
+      <Rule type="DeRule">
+        <ParamsString>(ABS(R)&gt;=3.95) &amp; (ABS(R)&lt;=4.05)</ParamsString>
+      </Rule>
+      <Rule type="DeRule">
+        <ParamsString>(FCRN="4(1)")</ParamsString>
+      </Rule>
+    </Work>
+    <Work type="b.Boring" collect="Face" description="Tourillons Gauche">
+      <Param name="TYP" value="0" type="int" IsParametricEnabled="false" />
+      <Param name="DIA" value="8" type="system.double" IsParametricEnabled="false" />
+      <Param name="DP" value="25" type="system.double" IsParametricEnabled="false" />
+      <Param name="NMC" value="&quot;Tourillons Gauche&quot;" type="system.string" IsParametricEnabled="false" />
+      <Rule type="DeRule">
+        <ParamsString>(FCRN="1(1)")</ParamsString>
+      </Rule>
+      <Rule type="DeRule">
+        <ParamsString>(ABS(R)&gt;=3.95) &amp; (ABS(R)&lt;=4.05)</ParamsString>
+      </Rule>
+    </Work>
+    <Work type="b.Boring" collect="Face" description="Tourillons Dessus">
+      <Param name="TYP" value="0" type="int" IsParametricEnabled="false" />
+      <Param name="DIA" value="8" type="system.double" IsParametricEnabled="false" />
+      <Param name="DP" value="15" type="system.double" IsParametricEnabled="false" />
+      <Param name="NMC" value="&quot;Tourillons Dessus&quot;" type="system.string" IsParametricEnabled="false" />
+      <Rule type="DeRule">
+        <ParamsString>(ABS(R)&gt;=3.95) &amp; (ABS(R)&lt;=4.05)</ParamsString>
+      </Rule>
+      <Rule type="DeRule">
+        <ParamsString>(FCRN="0(1)")</ParamsString>
+      </Rule>
+    </Work>
+    <Work type="b.Boring" collect="Face" description="Tourillons Dessous">
+      <Param name="TYP" value="0" type="int" IsParametricEnabled="false" />
+      <Param name="DIA" value="8" type="system.double" IsParametricEnabled="false" />
+      <Param name="DP" value="15" type="system.double" IsParametricEnabled="false" />
+      <Param name="NMC" value="&quot;Tourillons Dessous&quot;" type="system.string" IsParametricEnabled="false" />
+      <Rule type="DeRule">
+        <ParamsString>(FCRN="5(1)")</ParamsString>
+      </Rule>
+      <Rule type="DeRule">
+        <ParamsString>(ABS(R)&gt;=3.95) &amp; (ABS(R)&lt;=4.05)</ParamsString>
+      </Rule>
+    </Work>
+    <Work type="b.Boring" collect="Face" description="Charnière 35mm">
+      <Param name="TYP" value="0" type="int" IsParametricEnabled="false" />
+      <Param name="BYTOOL" value="1" type="bboringworkwrapper.toolmode" IsParametricEnabled="false" />
+      <Param name="TNM" value="&quot;MP_35_V&quot;" type="system.string" IsParametricEnabled="false" />
+      <Param name="USF" value="30" type="system.double" IsParametricEnabled="false" />
+      <Param name="DP" value="15" type="system.double" IsParametricEnabled="false" />
+      <Param name="VTR" value="2" type="system.int32" IsParametricEnabled="false" />
+      <Param name="DIA" value="35" type="system.double" IsParametricEnabled="false" />
+      <Param name="NMC" value="&quot;Percage 35mm&quot;" type="system.string" IsParametricEnabled="false" />
+      <Rule type="DeRule">
+        <ParamsString>(ABS(R)&gt;=17.3) &amp; (ABS(R)&lt;=17.70)</ParamsString>
+      </Rule>
+      <Rule type="DeRule">
+        <ParamsString>(FCRN="0(1)")</ParamsString>
+      </Rule>
+    </Work>
+    <Work type="b.Boring" collect="Face" description="Perçage 3mm">
+      <Param name="TYP" value="0" type="int" IsParametricEnabled="false" />
+      <Param name="BYTOOL" value="0" type="bboringworkwrapper.toolmode" IsParametricEnabled="false" />
+      <Param name="DIA" value="3" type="system.double" IsParametricEnabled="false" />
+      <Param name="THR" value="true" type="system.boolean" IsParametricEnabled="false" />
+      <Param name="DP" value="4" type="system.double" IsParametricEnabled="false" />
+      <Param name="NMC" value="&quot;Percage 3mm&quot;" type="system.string" IsParametricEnabled="false" />
+      <Rule type="DeRule">
+        <ParamsString>(FCRN="0(1)")</ParamsString>
+      </Rule>
+      <Rule type="DeRule">
+        <ParamsString>(ABS(R)&gt;=1.3) &amp; (ABS(R)&lt;=1.7)</ParamsString>
+      </Rule>
+    </Work>
+    <Work type="b.Boring" collect="Face" description="Perçage 5mm">
+      <Param name="TYP" value="0" type="int" IsParametricEnabled="false" />
+      <Param name="DP" value="8" type="system.double" IsParametricEnabled="false" />
+      <Param name="DIA" value="5" type="system.double" IsParametricEnabled="false" />
+      <Param name="BYTOOL" value="0" type="bboringworkwrapper.toolmode" IsParametricEnabled="false" />
+      <Param name="NMC" value="&quot;Percage 5mm&quot;" type="system.string" IsParametricEnabled="false" />
+      <Param name="TTP" value="0" type="bboringworkwrapper.ttptype" IsParametricEnabled="false" />
+      <Rule type="DeRule">
+        <ParamsString>(ABS(R)&gt;=2.3) &amp; (ABS(R)&lt;=2.7)</ParamsString>
+      </Rule>
+      <Rule type="DeRule">
+        <ParamsString>(FCRN="0(1)")</ParamsString>
+      </Rule>
+    </Work>
+  </Geometry>
+  <Geometry type="b.Rectangle">
+    <Work type="b.Routing" description="Détourage">
+      <Param name="CRC" value="1" type="b.data.compensationtypes" IsParametricEnabled="false" />
+      <Param name="TNM" value="&quot;P_SYSTEM_L28&quot;" type="system.string" IsParametricEnabled="false" />
+      <Param name="WSP" value="9000" type="system.double" IsParametricEnabled="false" />
+      <Param name="RSP" value="18000" type="system.double" IsParametricEnabled="false" />
+      <Param name="DSP" value="5000" type="system.double" IsParametricEnabled="false" />
+      <Param name="JSF" value="30" type="system.double" IsParametricEnabled="false" />
+      <Param name="USF" value="30" type="system.double" IsParametricEnabled="false" />
+      <Param name="DP" value="2" type="system.double" IsParametricEnabled="false" />
+      <Param name="THR" value="true" type="system.boolean" IsParametricEnabled="false" />
+      <Param name="TIN" value="12" type="broutingworkwrapper.typeleadin" IsParametricEnabled="false" />
+      <Param name="AIN" value="0" type="system.double" IsParametricEnabled="false" />
+      <Param name="RV" value="true" type="system.boolean" IsParametricEnabled="false" />
+      <Param name="NMC" value="&quot;Detourage&quot;" type="system.string" IsParametricEnabled="false" />
+      <Rule type="IsContainerRule">
+        <ParamsString>nointernal;intersectmax</ParamsString>
+      </Rule>
+      <Rule type="DeRule">
+        <ParamsString>True</ParamsString>
+      </Rule>
+    </Work>
+    <Work type="b.Routing" description="Poche">
+      <Param name="TNM" value="&quot;P_SYSTEM_L28&quot;" type="system.string" IsParametricEnabled="false" />
+      <Param name="WSP" value="9000" type="system.double" IsParametricEnabled="false" />
+      <Param name="RSP" value="18000" type="system.double" IsParametricEnabled="false" />
+      <Param name="DSP" value="5000" type="system.double" IsParametricEnabled="false" />
+      <Param name="JSF" value="30" type="system.double" IsParametricEnabled="false" />
+      <Param name="USF" value="30" type="system.double" IsParametricEnabled="false" />
+      <Param name="THR" value="true" type="system.boolean" IsParametricEnabled="false" />
+      <Param name="DP" value="2" type="system.double" IsParametricEnabled="false" />
+      <Param name="CRC" value="1" type="b.data.compensationtypes" IsParametricEnabled="false" />
+      <Param name="HRN" value="3" type="system.int32" IsParametricEnabled="false" />
+      <Param name="SHR" value="1" type="system.double" IsParametricEnabled="false" />
+      <Param name="TIN" value="13" type="broutingworkwrapper.typeleadin" IsParametricEnabled="false" />
+      <Param name="RV" value="true" type="system.boolean" IsParametricEnabled="false" />
+      <Param name="NMC" value="&quot;Poche&quot;" type="system.string" IsParametricEnabled="false" />
+      <Rule type="DeRule">
+        <ParamsString>true</ParamsString>
+      </Rule>
+    </Work>
+  </Geometry>
+  <Geometry type="b.Line">
+    <Work type="b.Routing" description="Rainure">
+      <Param name="DP" value="12" type="system.double" IsParametricEnabled="false" />
+      <Param name="TNM" value="&quot;P_SYSTEM_L28&quot;" type="system.string" IsParametricEnabled="false" />
+      <Param name="WSP" value="9000" type="system.double" IsParametricEnabled="false" />
+      <Param name="RSP" value="18000" type="system.double" IsParametricEnabled="false" />
+      <Param name="DSP" value="5000" type="system.double" IsParametricEnabled="false" />
+      <Param name="JSF" value="30" type="system.double" IsParametricEnabled="false" />
+      <Param name="USF" value="30" type="system.double" IsParametricEnabled="false" />
+      <Param name="CRC" value="1" type="b.data.compensationtypes" IsParametricEnabled="false" />
+      <Param name="RV" value="true" type="system.boolean" IsParametricEnabled="false" />
+      <Param name="NMC" value="&quot;Rainure&quot;" type="system.string" IsParametricEnabled="false" />
+      <Rule type="DeRule">
+        <ParamsString>true</ParamsString>
+      </Rule>
+    </Work>
+  </Geometry>
+</WorkRecognitionConfig>
