@@ -25,6 +25,13 @@ Bsuite est le logiciel de programmation pour machines CNC Biesse. La fonctionnal
 
 ## Création d'une nouvelle configuration
 
+**Etape préliminaire: Créer une nouvelle configuration**
+
+Avant de pouvoir créer vos règles d'usinages automatiques, vous devez d'abord créer une configuration:
+
+1. Cliquez sur la première icône (Nouvelle configuration)
+2. Enregistrez le fichier en lui donnant un nom explicite, par exemple : Usinage-Automatique
+3. Cliquez sur la quatrième icône pour créer votre première règle
 
 **Création d'une nouvelle règle**
 
