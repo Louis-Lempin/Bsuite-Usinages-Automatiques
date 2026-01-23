@@ -193,10 +193,10 @@ Chaque panneau possède 6 faces numérotées de 0 à 5:
 | Numéro | Face |
 |--------|------|
 | **0** | Face Supérieur (Dessus) |
-| **1** | Face avant |
-| **2** | Face droit |
-| **3** | Face arrière |
-| **4** | Face gauche |
+| **1** | Face gauche |
+| **2** | Face avant |
+| **3** | Face droit |
+| **4** | Face arrière |
 | **5** | Face inférieur (Dessous) |
 
 ![FCRN](images/fcrn.png)
