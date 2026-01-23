@@ -341,6 +341,17 @@ Pour les tourillons, séparer les règles par face permet d'avoir 6 programmes d
 
 ---
 
+Voici un fichier XML d'usinage automatique disponible via le lien ci-dessous.
+[Télécharger le fichier XML](Usinage-Automatique.xml)
+
+Pour l'utiliser dans bSuite, il suffit de placer le fichier dans le dossier suivant:
+
+OS (C:) > BIESSE > bSuite > WorkRecognitionConfigs
+
+Une fois le fichier ajouté dans ce répertoire, les règles d'usinage automatique seront reconnues et utilisables dans bSuite
+
+---
+
 ## Conclusion
 
 Ce guide représente le fruit de nombreuses heures de recherche et d'expérimentation sur Bsuite. J'espère qu'il vous fera gagner un temps précieux dans la configuration de vos usinages automatiques.
