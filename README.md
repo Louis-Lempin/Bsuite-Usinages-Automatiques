@@ -149,7 +149,6 @@ Ces opérateurs permetent de combiner plusieurs condittions:
 |---------|---------------|---------|
 | **&** | Et (And) | W>8 & H<8 |
 | **\|** | Non | !(FCRN="0(1)") |
-| **=** | Égal | H=4 |
 
 ### Opérateurs de comparaison
 
@@ -175,9 +174,25 @@ Utilisés pour calculer des positions ou dimensions relatives:
 | **/** | Division | ABS(W)-15 |
 
 ### Fonctions
-| Fonction | Signification |
-|----------|---------------|
-| **ABS()** | Valeur Absolue |
+| Fonction | Signification | Exemple de syntaxe |
+|----------|---------------|--------------------|
+| **ABS** | Valeur Absolue | Abs(X) |
+| **ARCTAN** | Calcul de l'arc tangent | ARCTAN(x) |
+| **COS** | Calcul du cosinus | COS(x) |
+| **INT** | Calcul de la partie entière d'une valeur décimale | INT(x) |
+| **SIN** | Calcul du sinus | SIN(x) |
+| **SQR** | Calcul de la racine carrée | SQR(x) |
+| **TAN** | Calcul de la Tangente | TAN(x) |
+| **ARCSIN** | Arcsinus | ARCSIN(x) |
+| **ARCCOS** | Arccosinus | ARCCOSIN(x) |
+| **LN** | Logarithme naturel | LN(x) |
+| **LOG** | Logarithme de base 10 | LOG(x) |
+| **RAD** | Convertit des degrés en radians | RAD(x) |
+| **DEG** | Convertit des radians en degrés | DEG(x) |
+| **PGR** | PI grc |  |
+
+
+
 
 ---
 
