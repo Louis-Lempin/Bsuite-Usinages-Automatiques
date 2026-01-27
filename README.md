@@ -51,7 +51,7 @@ Une fois votre configuration créée, vous accédez à l'interface principale de
 - Règles: Les conditions et formules appliquées (ex: (ABS(R)>=3.95)&(ABS(R)<=4.05)
 - Données usinage: Paramètres techniques (Type, outil, profondeur, diamètre, etc..)
 
-**Parite droite: configuration de l'usinage**
+**Partie droite: configuration de l'usinage**
 
    Cette zone permet de configurer les paramètres spécifiques de l'usinage sélectionné:
 
