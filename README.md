@@ -192,8 +192,6 @@ Utilisés pour calculer des positions ou dimensions relatives:
 | **PGR** | PI grec |  |
 
 
-
-
 ---
 
 ## Système de numérotation des faces
