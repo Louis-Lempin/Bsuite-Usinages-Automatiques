@@ -236,7 +236,8 @@ Procédure :
 
    1. sélectionner les géométries concernée
    2. Cliquer sur finalise l'objet ![Finaliseobjet](images/Finaliseobjet.png)
-   3. Pointer la face ![Pointeface](images/pointeface.png)
+   3. Pointer la face
+![Pointeface](images/pointeface.png)
 
 
 
