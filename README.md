@@ -230,7 +230,13 @@ Ces géométries importé :
    - Peuvent déclencher plusieurs usinages automatique non souhaités
    - Ne sont pas fiables
 
-Toutes géométries importée doit être finaliser
+Toutes géométries importée destinée à un usinage automatique doit être finalisée manuellement, afin d'assigner la géométrie à une seul face.
+
+Procédure : 
+
+   1. sélectionner les géométries concernée
+   2. Cliquer sur finalise l'objet ![Finaliseobjet](images/Finaliseobjet.png)
+   3. Pointer la face ![Pointeface](images/pointeface.png)
 
 
 
