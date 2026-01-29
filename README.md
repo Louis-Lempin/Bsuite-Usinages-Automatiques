@@ -220,6 +220,21 @@ Chaque panneau possède 6 faces numérotées de 0 à 5:
 **Exemple :** `FCRN="2(1)"` signifie Face droite, Arête 1
 
 ---
+## Importation de fichier CAO (IGES, STEP...)
+
+Lors de l'importation d'un fichier CAO (IGES, STEP...), bSolid crée des géométries brutes (cercles, rectangles, lignes) qui ne sont pas associées à une face.
+
+Ces géométries importé : 
+
+   - Sont tous appliqué sur la face du dessus
+   - Peuvent déclencher plusieurs usinages automatique non souhaités
+   - Ne sont pas fiables
+
+Toutes géométries importée doit être finaliser
+
+
+
+---
 
 ## Guide des usinages automatiques
 
