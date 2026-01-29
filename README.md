@@ -226,7 +226,7 @@ Lors de l'importation d'un fichier CAO (IGES, STEP...), bSolid crée des géomé
 
 Ces géométries importé : 
 
-   - Sont tous appliqué sur la face du dessus
+   - Sont tous appliqué sur la face du dessus (par défaut)
    - Peuvent déclencher plusieurs usinages automatique non souhaités
    - Ne sont pas fiables
 
