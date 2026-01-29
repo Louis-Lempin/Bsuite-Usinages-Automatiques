@@ -307,6 +307,7 @@ Toutes les lignes détectées sont traitées comme des rainures.
 Rayon entre 3.95 mm et 4.05 mm (gère les imperfections d'import)
 
 **Regroupe par: Face**
+
 Avantage : 6 programmes distincts dans l'arbre pour une meilleure organisation.
 
 **Règles par face :**
