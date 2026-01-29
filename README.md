@@ -267,7 +267,7 @@ Le détourage s'applique uniquement au rectangle qui n'est pas contenu dans un a
 ### 2. Poche (ex: prise de courant)
 
 **Géométrie détectée :** Rectangle  
-**Type d'usinage :** Fraisage/Coupe  
+**Type d'usinage :** Fraisage
 **Condition :** Aucune
 
 **Principe :**
@@ -294,7 +294,7 @@ Toutes les lignes détectées sont traitées comme des rainures.
 
 ---
 
-### 4. Tourillons 8mm (6 faces)
+### 4. Tourillons 8mm (6 règles pour les 6 faces)
 
 **Géométrie détectée :** Cercle  
 **Type d'usinage :** Perçage  
@@ -305,6 +305,9 @@ Toutes les lignes détectées sont traitées comme des rainures.
 (ABS(R)>=3.95) & (ABS(R)<=4.05)
 ```
 Rayon entre 3.95 mm et 4.05 mm (gère les imperfections d'import)
+
+**Regroupe par: Face**
+Avantage : 6 programmes distincts dans l'arbre pour une meilleure organisation.
 
 **Règles par face :**
 
