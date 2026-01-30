@@ -107,7 +107,7 @@ Exemples de descriptions:
 
 ## Tableau de référence des variables
 
-Pour créer des règles d'usinages automatiques efficzces, il est essentiel de connaître les variables disponibles dans Bsuite. Ces variables permettent de définir des conditions précises pour détecter et usiner les géométries.
+Pour créer des règles d'usinages automatiques efficaces, il est essentiel de connaître les variables disponibles dans Bsuite. Ces variables permettent de définir des conditions précises pour détecter et usiner les géométries.
 
 **Variables de dimensions et positions**
 
