@@ -321,8 +321,6 @@ Avantage : 6 programmes distincts dans l'arbre pour une meilleure organisation.
 | Tourillons Dessus | Cercle | Perçage | Face 0 | `(ABS(R)>=3.95) & (ABS(R)<=4.05)` + `(FCRN="0(1)")` |
 | Tourillons Dessous | Cercle | Perçage | Face 5 | `(ABS(R)>=3.95) & (ABS(R)<=4.05)` + `(FCRN="5(1)")` |
 
-**Avantage :** 6 programmes distincts dans l'arbre pour une meilleure organisation.
-
 ---
 
 ### 5. Perçage vertical 3mm
