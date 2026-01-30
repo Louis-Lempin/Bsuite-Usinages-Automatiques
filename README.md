@@ -96,7 +96,7 @@ Etape 3 : Description
 
 ![Nouvelle règle géométrie](images/Nouvelle%20régle%20description.png)
 
-Donnez un nom clair à votre règle pour l'identifier facilement dans l'arbre des opérations.
+Donnez un nom clair à votre usinage pour l'identifier facilement dans l'arbre des opérations.
 
 Exemples de descriptions:
 - Tourillons avant
