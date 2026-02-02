@@ -160,7 +160,6 @@ Ces opérateurs comparent dez valeurs pour définir des plages ou des conditions
 | **>** | Supérieur ou égal | R>=3.95 |
 | **<** | Inférieur | R<=4.05 |
 | **<>** | Différent | W<>H |
-| **\*** | Multiplication | (R=0)*24 |
 
 ### Opérateurs mathématiques
 
@@ -170,8 +169,8 @@ Utilisés pour calculer des positions ou dimensions relatives:
 |---------|---------------|---------|
 | **+** | Addition | LPX+2 |
 | **-** | Soustraction | LPX-2 |
-| **\*** | Division | LPY*0.3(10%) |
 | **/** | Division | ABS(W)-15 |
+| **\*** | Multiplication | (R=0)*24 |
 
 ### Fonctions
 | Fonction | Signification | Exemple de syntaxe |
