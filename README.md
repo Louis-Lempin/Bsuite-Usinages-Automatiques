@@ -188,7 +188,6 @@ Utilisés pour calculer des positions ou dimensions relatives:
 | **LOG** | Logarithme de base 10 | LOG(x) |
 | **RAD** | Convertit des degrés en radians | RAD(x) |
 | **DEG** | Convertit des radians en degrés | DEG(x) |
-| **PGR** | PI grec |  |
 
 
 ---
