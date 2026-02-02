@@ -170,7 +170,7 @@ Utilisés pour calculer des positions ou dimensions relatives:
 | **+** | Addition | LPX+2 |
 | **-** | Soustraction | LPX-2 |
 | **/** | Division | ABS(W)-15 |
-| **\*** | Multiplication | (R=2)*0,10 |
+| **\*** | Multiplication | (R=2)*0,9 |
 
 ### Fonctions
 | Fonction | Signification | Exemple de syntaxe |
