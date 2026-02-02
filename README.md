@@ -246,9 +246,8 @@ Procédure :
 
 Certaines géométries ne s'importe pas de la bonne manière, exemple le plus fréquents :
 
-   Cercle → Polyligne
-   
-   Rectangle → Polyligne
+- Cercle → Polyligne
+- Rectangle → Polyligne
 
 Prioriser l'importation sous format "STEP"
 
