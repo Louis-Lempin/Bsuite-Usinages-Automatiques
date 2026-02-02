@@ -244,7 +244,11 @@ Procédure :
 ![Pointeface](images/pointeface.png)
 
 
+Certaines géométries ne s'importe pas de la bonne manière, exemple le plus fréquents :
 
+   Cercle → Polyligne
+   Rectangle → Polyligne
+   
 ---
 
 ## Guide des usinages automatiques
