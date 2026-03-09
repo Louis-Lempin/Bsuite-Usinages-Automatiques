@@ -8,7 +8,7 @@
 
 ## Introduction
 
-Lors de ma découverte de la fonctionnalité d'usinages automatiques dans Bsuite, j'ai constaté un manque flagrant de documentation. Malgré des recherches approfondies sur Google, Reddit et autres forums spécialisés, aucune ressource complète n'existait sur le sujet.
+Lors de ma découverte de la fonctionnalité d'usinages automatiques dans Bsuite, j'ai constaté un manque flagrant de documentation. Malgré des recherches approfondies sur Google, Reddit, github et autres forums spécialisés, aucune ressource complète n'existait sur le sujet.
 
 J'ai donc dû développer mes propres méthodes et créer ce guide pour partager mes découvertes avec la communauté des opérateurs CNC et programmateurs Biesse.
 
